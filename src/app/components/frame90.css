@@ -1,0 +1,29 @@
+#frame90{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 200px;
+    top: 20px;
+    justify-content: space-between;
+}
+
+#frame90 > *{
+    color: black;
+    font-weight: 400;  
+    opacity: 0.5;
+    text-decoration: none;
+    align-self: center;
+    justify-self: center;
+
+    text-align: center;
+}
+#frame90:hover > *{
+    scale: 1.05;
+    opacity: 1;
+    transition: all 0.1s ease;
+}
+@media screen and (max-width: 870px){
+   
+}
+

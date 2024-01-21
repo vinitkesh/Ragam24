@@ -1,0 +1,15 @@
+#frame100{
+    max-width: 840px;
+}
+
+.text{
+    width: 73%;
+    height: 329px;
+}
+
+.list > *{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 20px;
+}
