@@ -10,12 +10,20 @@ import Frame101 from './components/Frame101';
 import Frame100 from './components/Frame100';
 import Footer from './components/Footer';
 
+import RagamLogo from './components/Ragam_logo';
+
 
 
 const Page = () => {
   return (
     <>  
-      <Navbar />
+      <div className="navbar">
+        <RagamLogo />
+        <div className="links">
+        <a href="/">Home</a>
+        <a href="/Contact">Contact Us</a>
+        </div>
+      </div>
 
       <Frame89 />
       <Frame90 />
