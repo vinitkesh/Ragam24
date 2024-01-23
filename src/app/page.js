@@ -18,6 +18,7 @@ const Page = () => {
   return (
     <>  
       <div className="navbar">
+        
         <RagamLogo />
         <div className="links">
         <a href="/">Home</a>

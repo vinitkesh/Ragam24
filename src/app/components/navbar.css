@@ -41,6 +41,8 @@
     align-items: center;
     gap: 42px;
     justify-content: center;
+
+    height: fit-content;
     
 }
 
@@ -51,12 +53,18 @@
     color: black;
 
     max-height: 22px;
-    padding: 10px;
+
 
     font-size: 100%;
     font-weight: 600;
     font-size: 18px;
     line-height: 21.78px;
+
+    align-self: center;
+    justify-content: center;
+
+    padding: 10px 20px;
+    margin: 0;
 }
 
 .navbar .links a:hover{
