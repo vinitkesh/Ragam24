@@ -4,19 +4,33 @@ import '../styles.css';
 
 import RagamLogo from './Ragam_logo';
 
+import './footer.css'
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="nitc-logo">
-        <img src="" alt="" />
+    <div className='footer'>
+      
+      <div className="nitc">
+        <div className="nitclogo">
+          <img src="./links/image 8.svg" alt="NITC" />
+        </div>
+        <RagamLogo />
+        
       </div>
-      <RagamLogo />
-      <div className="links">
-        <div className="insta"></div>
-        <div className="x"></div>
-        <div className="yt"></div>
-        <div className="wp"></div>
+
+      <div className="footer_links">
+        <a href='/' ><img src="./links/image 5.svg" alt="" /></a>
+        <a href='/' ><img src="./links/image 3.svg" alt="" /></a>
+        
+        <a href='/' ><img src="./links/image 6.svg" alt="" /></a>
+          <a href='/' ><img src="./links/image 7.svg" alt="" /></a>
       </div>
+
+      <div className="address">
+        <h1>National Institute of Technology, Calicut</h1>
+        <h2>Calicut Mukkam Road, Kattangal </h2>
+        <h2>Kerala 673601</h2>
+      </div>
+
     </div>
   );
 };
